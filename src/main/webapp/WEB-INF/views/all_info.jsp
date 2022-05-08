@@ -6,12 +6,12 @@
         </h2>
         <br><br>
         <security:authorize access="hasRole('HR')">
-        <input type="button" value="SALARY" onclick="window.location.href='hr'">
+        <input type="button" value="HRs PAGE" onclick="window.location.href='hr'">
         HR ONLY
-        </security:authorize>
         <br><br>
+        </security:authorize>
         <security:authorize access="hasRole('MANAGER')">
-        <input type="button" value="PERFORMANCE" onclick="window.location.href='manager'">
+        <input type="button" value="MANAGERS PAGE" onclick="window.location.href='manager'">
         MANAGERS ONLY
         </security:authorize>
     </body>
